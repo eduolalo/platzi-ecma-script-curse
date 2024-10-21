@@ -15,8 +15,11 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
+      "ahmadawais.shades-of-purple"
       "ms-vscode.atom-keybindings"
+      "formulahendry.code-runner"
       "esbenp.prettier-vscode"
+      "usernamehw.errorlens"
       "oven.bun-vscode"
     ];
 
