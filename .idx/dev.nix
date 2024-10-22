@@ -15,6 +15,8 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
+      "streetsidesoftware.code-spell-checker-spanish"
+      "streetsidesoftware.code-spell-checker"
       "ahmadawais.shades-of-purple"
       "ms-vscode.atom-keybindings"
       "formulahendry.code-runner"

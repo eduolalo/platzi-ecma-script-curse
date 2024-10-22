@@ -1,7 +1,7 @@
 // Template literas
 
-let hello = 'Hello';
-let world = 'World';
+let hello = 'Hola';
+let world = 'Raza';
 
 let epicPhrase = hello + ' ' + world + '!';
 console.log(epicPhrase);
@@ -13,6 +13,6 @@ console.log(epicPhrase2);
 let lorem = 'esto es un string \n' + 'esto es otra linea';
 console.log(lorem);
 
-let lorem2 = `esto es un string
+let lorem2 = `Esto es un string
 esto es otra linea`;
 console.log(lorem2);
