@@ -6,12 +6,31 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
+    pkgs.libuuid.bin
     pkgs.bun
     pkgs.git
+
   ];
 
+  # Environment config
+  # environment.sh.shellAliases = {
+  # ggpull = ''git pull origin "$(git_current_branch)"'';
+  # ggpush = ''git push origin "$(git_current_branch)"'';
+  # gcam = ''git commit --all --message'';
+  # ggfetch = ''ggpull && gfa'';
+  # gst = ''git status'';
+  # };
+  # environment.interactiveShellInit = ''
+  #   ggpull = 'git pull origin "$(git_current_branch)"';
+  #   ggpush = 'git push origin "$(git_current_branch)"';
+  #   gcam = 'git commit --all --message';
+  #   ggfetch = 'ggpull && gfa';
+  #   gst = 'git status';
+  # mialias = 'echo "puta"'
+  # '';
+
   # Sets environment variables in the workspace
-  env = {};
+  env = { };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
