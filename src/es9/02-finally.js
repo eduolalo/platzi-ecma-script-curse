@@ -1,13 +1,14 @@
 const anotherFunction = () => {
     return new Promise((resolve, reject) =>{
-        if(true){
-            resolve('Sí jaló perrillo!!!')
+        if(false){
+            resolve('༼ つ ◕_◕ ༽つ')
         } else {
-            reject('Te la pellizcaste :c')
+            reject('༼ つ ಥ_ಥ ༽つ')
         }
     });
 }
 
 anotherFunction()
     .then(response => console.log(`Promise dice: ${response}`))
-    .catch(err => console.log(`Promise dice: ${err}`))
+    .catch(err => console.log(err))
+    .finally(() => console.log(`¯\\\_(ツ)_/¯`))

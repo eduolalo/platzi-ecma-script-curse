@@ -9,25 +9,7 @@
     pkgs.libuuid.bin
     pkgs.bun
     pkgs.git
-
   ];
-
-  # Environment config
-  # environment.sh.shellAliases = {
-  # ggpull = ''git pull origin "$(git_current_branch)"'';
-  # ggpush = ''git push origin "$(git_current_branch)"'';
-  # gcam = ''git commit --all --message'';
-  # ggfetch = ''ggpull && gfa'';
-  # gst = ''git status'';
-  # };
-  # environment.interactiveShellInit = ''
-  #   ggpull = 'git pull origin "$(git_current_branch)"';
-  #   ggpush = 'git push origin "$(git_current_branch)"';
-  #   gcam = 'git commit --all --message';
-  #   ggfetch = 'ggpull && gfa';
-  #   gst = 'git status';
-  # mialias = 'echo "puta"'
-  # '';
 
   # Sets environment variables in the workspace
   env = { };
@@ -72,6 +54,7 @@
       onStart = {
         # Example: start a background task to watch and re-build backend code
         # watch-backend = "npm run watch-backend";
+        config-shell = "bash ./config-env-shell.sh &";
       };
     };
   };
