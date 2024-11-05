@@ -76,8 +76,3 @@ const elKevin = new Carnal('el Deivid', 36)
 console.log(elKevin.uAge)
 elKevin.uAge = 37
 console.log(elKevin.uAge)
-
-
-// static methods
-
-
